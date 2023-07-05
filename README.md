@@ -5,7 +5,7 @@
 ```c
 // konekt(ip, port) - returns struct klient
 // example:
-struct klient *client = connect("127.0.0.1", 8080);
+struct klient *client = konekt("127.0.0.1", 8080);
 
 // Ksend_binary(client, data, size);
 // example:
